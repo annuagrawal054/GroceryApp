@@ -30,12 +30,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });*/
 
-
-
-
-
-
-        // /
+        //
         addtocartfragmnet = new AddTOCartFragment();
         categoryFragment = new CategoryFragment();
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction().add(R.id.container,addtocartfragmnet);
