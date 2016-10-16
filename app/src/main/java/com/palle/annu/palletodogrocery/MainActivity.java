@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction().add(R.id.container,addtocartfragmnet);
         ft.addToBackStack(null);
         ft.commit();
+        //  Lets add some Action bar evemntass...
+        
     }
 
     @Override
