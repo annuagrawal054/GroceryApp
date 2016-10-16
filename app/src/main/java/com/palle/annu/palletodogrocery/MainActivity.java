@@ -32,13 +32,22 @@ public class MainActivity extends AppCompatActivity {
 
         //
 
-        
         addtocartfragmnet = new AddTOCartFragment();
+        addtocartfragmnet = new AddTOCartFragment();
+
+
+
+
+
+
+
         categoryFragment = new CategoryFragment();
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction().add(R.id.container,addtocartfragmnet);
         ft.addToBackStack(null);
         ft.commit();
         //  Lets add some Action bar evemntass...
+
+        //  no..
 
 
 
